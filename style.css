@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,900');
+
+body{
+  font-family:'Raleway', sans-serif;
+  font-weight:300;
+  color:#191919;
+  text-align:center;
+  background-color:	#b2eee6;
+}
+.app{
+  display:block;
+  margin-top: 70px !important;
+  margin-bottom:50px !important;
+  margin:auto;
+  border-radius:6px;
+  border:1px solid #191919;
+  height:100%;
+  max-width:400px;
+  padding:17px;
+  background-color:#fff;
+}
+.brand{
+  font-size:15px;
+  text-transform:uppercase;
+  margin-top: 5px;
+}
+.menu-icon{
+  text-align:left;
+  font-size:18px;
+}
+.search-icon{
+  text-align:right;
+  font-size:18px;
+}
+.menu-icon a i, .search-icon a i{
+  color:#191919;
+}
+
+#food-image img, #drink-image img, #coffee-image img{
+  margin-top:-30px;
+  margin-bottom:80px;
+  width:25%;
+}
+.product-names li{
+  display:inline-block;
+  padding:0px 3px;
+  font-size:20px;
+}
+.product-names li h3 a{
+  font-size:22px;
+  color:#191919;
+  text-transform:uppercase;
+}
+.product-names li h3 a:hover, .product-names li h3 a:focus {
+  text-decoration:none;
+}
+
+table{
+  text-align:left;
+}
+thead tr th{
+  font-weight:300;
+  font-size:12px
+}
+tbody tr td{
+ font-size:16px;
+}
+td:nth-child(1){
+  font-weight:400
+}
+tbody tr td{
+  border:0 !important
+}
+footer{
+  margin-top:70px;
+  width: 100%;
+}
+
+.active{
+ display:block;
+}
+.desactivated{
+  display:none;
+}
+.product-names{
+  position:relative;
+  top:140px;
+  left:0px;
+  padding-left:0px;
+}
+
+@media screen and (max-width: 767px){
+  .table-responsive {
+    border:none;
+}
+}
+.active-btn{
+  opacity:1;
+}
+.nactive-btn{
+  opacity:0.7;
+}
